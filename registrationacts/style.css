@@ -27,9 +27,17 @@ label {
     font-weight: bold;
 }
 
-input[type="name"],
+input[type="name1"],
+input[type="name2"],
+input[type="name3"],
 input[type="email"],
 input[type="studentid"],
+input[type="studentno"],
+input[type="address"],
+input[type="contact"],
+input[type="bday"],
+input[type="age"],
+input[type="rel"],
 select {
     width: 100%;
     padding: 10px;
