@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1f1; /* Light pinkish background */
+}
+
+.choose-role {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.role-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.role-box {
+    width: 200px;
+    padding: 20px;
+    background-color: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
+
+.role-box:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+}
+
+.role-box h3 {
+    margin-top: 0;
+    color: #ff8585; /* Semi-pinkish text color */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8585; /* Semi-pinkish button color */
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff7070; /* Darker semi-pinkish color on hover */
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.create-account a {
+    color: #ff8585; /* Semi-pinkish link color */
+    text-decoration: none;
+}
+
+.create-account a:hover {
+    text-decoration: underline; /* Underline on hover */
+}

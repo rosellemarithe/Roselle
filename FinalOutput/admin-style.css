@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f1f1; 
+}
+
+.registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color:  #f8f1f1;
+}
+
+.registration-container {
+    background-color: #fff; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.label {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.label p {
+    margin: 0;
+    font-weight: bold;
+    color: #ff8585;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #ff7070;  
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid  #ff8585; 
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    background-color:  #ff8585; 
+    color: #fff; 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff5858; 
+}
