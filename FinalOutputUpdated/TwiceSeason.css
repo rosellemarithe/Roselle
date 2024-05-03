@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2; /* Light grayish background */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff69b4; /* Pink background for the navigation */
+    font-family: "Bauhaus 93", sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    display: inline;
+    float: left;
+    border-right: 2px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff; /* White text color for the navigation links */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+li a:hover {
+    background-color: #ff1493; /* Darker pink background on hover */
+}
+
+/* Main styles */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Use min-height to ensure the page takes up at least the height of the viewport */
+}
+
+.featured-item-details {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Add margin to lower the container */
+}
+
+.featured-item-details img {
+    max-width: 300px; /* Set maximum width */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+.featured-item-details h2 {
+    margin-top: 20px;
+    color: #333; /* Dark text color */
+}
+
+.featured-item-details p {
+    color: #666; /* Gray text color */
+    margin: 10px 0;
+}
+
+.featured-item-details button {
+    background-color: #ff69b4; /* Pink button color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.featured-item-details button:hover {
+    background-color: #ff1493; /* Darker pink color on hover */
+}
